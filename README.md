@@ -3,9 +3,9 @@ My Advent of Code solutions; multiple years and multiple languages.
 
 ## Index:
 
-| Directory      | Description                                    |
-| -------------- | ---------------------------------------------- |
-| AoC-2022-Cpp   | C++, in progress. Work done in 2022/2023       |
+| Directory                                                                                    | Description                                    |
+| -------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| [AoC-2022-Cpp](https://github.com/PockyBum522/AdventOfCode#aoc-2022-cpp)                     | C++, in progress. Work done in 2022/2023       |
 
 (See below for details)
 
