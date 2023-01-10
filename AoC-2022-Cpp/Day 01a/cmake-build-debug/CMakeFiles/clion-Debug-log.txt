@@ -1,0 +1,4 @@
+C:\Users\David\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/David/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/ninja/win/ninja.exe -G Ninja -S "D:\Dropbox\Documents\Programming\C++\AoC\2022\Day 01" -B "D:\Dropbox\Documents\Programming\C++\AoC\2022\Day 01\cmake-build-debug"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Dropbox/Documents/Programming/C++/AoC/2022/Day 01/cmake-build-debug

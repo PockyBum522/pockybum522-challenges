@@ -1,0 +1,17 @@
+# ninja log v5
+1	191	6941150509248597	CMakeFiles/Day_01.dir/Logic/ListProcessor.cpp.obj	95b73ba09bdaac9
+2	120	6940668226396835	CMakeFiles/Day_01.dir/RawData/RawData.cpp.obj	fc08553c3d8b48bf
+2	125	6940744434148804	CMakeFiles/Day_01.dir/main.cpp.obj	ba35d1b2386c3878
+0	3	0	clean	4ab00a48b7172f4d
+191	243	6941150509764956	Day_01.exe	5b5e8db7ad5cb03c
+7	180	6940668226991907	CMakeFiles/Day_01.dir/Logic/RawDataLoader.cpp.obj	32d3f35b37d85f6d
+2	76	6940684362458087	build.ninja	ce7fdd77451b8d24
+1	173	6940706135257603	CMakeFiles/Day_01.dir/Logic/StringListHelpers.cpp.obj	b9c8e38428f1f5dd
+4	58	6940668225776835	CMakeFiles/Day_01.dir/Logic/CharListHelpers.cpp.obj	667c58e89ffad9df
+1	125	6941150880059045	CMakeFiles/Day_01.dir/main.cpp.obj	ba35d1b2386c3878
+125	176	6941150880544281	Day_01.exe	5b5e8db7ad5cb03c
+1	127	6941162842441691	CMakeFiles/Day_01.dir/main.cpp.obj	ba35d1b2386c3878
+1	211	6941163681499128	CMakeFiles/Day_01.dir/Logic/ListProcessor.cpp.obj	95b73ba09bdaac9
+211	267	6941163682036166	Day_01.exe	5b5e8db7ad5cb03c
+1	207	6941164135413518	CMakeFiles/Day_01.dir/Logic/ListProcessor.cpp.obj	95b73ba09bdaac9
+208	259	6941164135909486	Day_01.exe	5b5e8db7ad5cb03c
