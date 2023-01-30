@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/source/repos/PockyBum522 Github/AoC-2022-Cpp/Day 03a/cmake-build-debug",
-		"source" : "D:/source/repos/PockyBum522 Github/AoC-2022-Cpp/Day 03a"
+		"build" : "D:/source/repos/PockyBum522 Github/AdventOfCode/AoC-2022-Cpp/Day 03a/cmake-build-debug",
+		"source" : "D:/source/repos/PockyBum522 Github/AdventOfCode/AoC-2022-Cpp/Day 03a"
 	},
 	"version" : 
 	{
