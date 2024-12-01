@@ -1,0 +1,7 @@
+/media/secondary/repos/pockybum522-challenges/2024-12-AoC-CSharp/Day 01a/Aoc2023CSharp.Desktop/obj/Debug/net7.0/Aoc2023CSharp.Desktop.csproj.AssemblyReference.cache
+/media/secondary/repos/pockybum522-challenges/2024-12-AoC-CSharp/Day 01a/Aoc2023CSharp.Desktop/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache
+/media/secondary/repos/pockybum522-challenges/2024-12-AoC-CSharp/Day 01a/Aoc2023CSharp.Desktop/obj/Debug/net7.0/Aoc2023CSharp.Desktop.GeneratedMSBuildEditorConfig.editorconfig
+/media/secondary/repos/pockybum522-challenges/2024-12-AoC-CSharp/Day 01a/Aoc2023CSharp.Desktop/obj/Debug/net7.0/Aoc2023CSharp.Desktop.AssemblyInfoInputs.cache
+/media/secondary/repos/pockybum522-challenges/2024-12-AoC-CSharp/Day 01a/Aoc2023CSharp.Desktop/obj/Debug/net7.0/Aoc2023CSharp.Desktop.AssemblyInfo.cs
+/media/secondary/repos/pockybum522-challenges/2024-12-AoC-CSharp/Day 01a/Aoc2023CSharp.Desktop/obj/Debug/net7.0/Aoc2023CSharp.Desktop.csproj.CoreCompileInputs.cache
+/media/secondary/repos/pockybum522-challenges/2024-12-AoC-CSharp/Day 01a/Aoc2023CSharp.Desktop/obj/Debug/net7.0/Aoc2023CSharp.Desktop.sourcelink.json
