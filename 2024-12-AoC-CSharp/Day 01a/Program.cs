@@ -29,12 +29,33 @@ internal static class Program
         
         var dataLines = textToWork.Split(Environment.NewLine);
 
+        var locationIds = new List<int>();
+        var locations = new List<int>();
+        
         var counter = 0;
         foreach (var line in dataLines)
-        {        
-            _logger.Information("On: {ThisCount} with a total of: {TotalCount}", counter++, 0);
+        {
+            var locationId = line.Split("   ")[0];
+            var location = line.Split("   ")[1];
+            
+            locationIds.Add(int.Parse(locationId));
+            locations.Add(int.Parse(location));
+            
+            
+            // _logger.Information("On: {ThisCount} with a total of: {TotalCount}", counter++, dataLines.Length);
+            // _logger.Information("ID: {Id} / Loc: {Location}", locationId, location);
+            //
 
             
+        }
+        
+        locationIds.Sort();
+        locations.Sort();
+        
+        for (var i = 0; i < locationIds.Count; i++)
+        {
+            var thisLength = Math.Abs(locations[i] - locationIds[i]);
+            answer += thisLength;
         }
         
         LogStopwatchFinalTimes();
