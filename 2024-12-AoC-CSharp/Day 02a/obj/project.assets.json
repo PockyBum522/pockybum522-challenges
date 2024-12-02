@@ -173,11 +173,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/secondary/repos/pockybum522-challenges/2024-12-AoC-CSharp/Day 02b/CSharpAoC2024.csproj",
+      "projectUniqueName": "/media/secondary/repos/pockybum522-challenges/2024-12-AoC-CSharp/Day 02a/CSharpAoC2024.csproj",
       "projectName": "CSharpAoC2024",
-      "projectPath": "/media/secondary/repos/pockybum522-challenges/2024-12-AoC-CSharp/Day 02b/CSharpAoC2024.csproj",
+      "projectPath": "/media/secondary/repos/pockybum522-challenges/2024-12-AoC-CSharp/Day 02a/CSharpAoC2024.csproj",
       "packagesPath": "/home/david/.nuget/packages/",
-      "outputPath": "/media/secondary/repos/pockybum522-challenges/2024-12-AoC-CSharp/Day 02b/obj/",
+      "outputPath": "/media/secondary/repos/pockybum522-challenges/2024-12-AoC-CSharp/Day 02a/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [

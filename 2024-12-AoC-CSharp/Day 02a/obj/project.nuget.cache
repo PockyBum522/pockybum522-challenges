@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fCufLIxB7Xk=",
+  "dgSpecHash": "lbiuoC4Xk1s=",
   "success": true,
-  "projectFilePath": "/media/secondary/repos/pockybum522-challenges/2024-12-AoC-CSharp/Day 02b/CSharpAoC2024.csproj",
+  "projectFilePath": "/media/secondary/repos/pockybum522-challenges/2024-12-AoC-CSharp/Day 02a/CSharpAoC2024.csproj",
   "expectedPackageFiles": [
     "/home/david/.nuget/packages/serilog/4.1.0/serilog.4.1.0.nupkg.sha512",
     "/home/david/.nuget/packages/serilog.sinks.console/6.0.0/serilog.sinks.console.6.0.0.nupkg.sha512",
