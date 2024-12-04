@@ -1,10 +1,13 @@
 ﻿using System.Diagnostics;
+using System.Threading.Tasks;
 using CSharpAoC2024.ApplicationLogistics;
 
 namespace CSharpAoC2024;
 
 internal static class Program
 {
+    private static string _textToWork =>  RawData.SampleData01;
+    
     private static readonly Serilog.Core.Logger _logger = LoggerSetup.ConfigureLogger()
         .MinimumLevel.Warning()
         .CreateLogger();
@@ -34,10 +37,8 @@ internal static class Program
         await Task.Delay(1); // Keep the linter happy
         _elapsedTotal.Start();
         _logger.Fatal("Starting!"); // Fatal 'cause we ALWAYS want to see this in log
-        
-        var textToWork = RawData.ActualData01;
 
-        var dataLines = textToWork.Split('\n');
+        var dataLines = _textToWork.Split('\n');
 
         workAllLines(dataLines);
 
