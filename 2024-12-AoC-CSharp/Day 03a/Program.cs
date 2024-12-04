@@ -22,13 +22,27 @@ internal static class Program
         
         var currentCheckIndex = 0;
 
+        var enabled = true;
+
         while (currentCheckIndex < line.Length)
         {
             var nextMulPosition = GetNextMulPosition(currentCheckIndex);
-            
-            if (nextMulPosition < 0) break;
-            
+            var nextDontPosition = GetNextDontPosition(currentCheckIndex);
+            var nextDoPosition = GetNextDoPosition(currentCheckIndex);
+
             currentCheckIndex = nextMulPosition + 1;
+            
+            if (nextMulPosition < 0)
+            {
+                break;
+            }
+            
+            if (nextMulPosition > nextDontPosition &&
+                nextDontPosition != -1)
+            {
+                currentCheckIndex = nextDoPosition;
+                continue;
+            }
             
             var rawParsed = ParseToNextParenthesis(nextMulPosition);
             
@@ -44,6 +58,16 @@ internal static class Program
         }
         
         _logger.Warning("Answer is: {Answer}", answer);
+    }
+
+    private static int GetNextDoPosition(int currentCheckIndex)
+    {
+        return _textToWork.IndexOf("do()", currentCheckIndex, StringComparison.Ordinal);
+    }
+
+    private static int GetNextDontPosition(int currentCheckIndex)
+    {
+        return _textToWork.IndexOf("don't()", currentCheckIndex, StringComparison.Ordinal);
     }
 
     private static int ParseNumberFrom(string rawParsed, int whichNumber)
