@@ -21,12 +21,43 @@ internal static class Program
 
         var answerTotal = 0;
 
-        // CODE GO HERE
-        
-        
-        
-        
-        
+        var currentIndex = 50;
+
+        foreach (var line in rawLines)
+        {
+            // Debug parse:
+            // Console.WriteLine(line[1..]);
+            
+            var numberInLine = int.Parse(line[1..]);
+
+            Console.WriteLine($"Current: {currentIndex}");
+            Console.WriteLine($"Line: {line}");
+            
+            if (line[0] == 'L')
+            {
+                currentIndex -= numberInLine;
+            }
+            else
+            {
+                currentIndex += numberInLine;
+            }
+
+            while (currentIndex < 0)
+            {
+                currentIndex = 100 + currentIndex;
+            }
+
+            while (currentIndex > 99)
+            {
+                currentIndex -= 100;
+            }
+            
+            Console.WriteLine($"After Line: {currentIndex}");
+            Console.WriteLine();
+            
+            if (currentIndex == 0)
+                answerTotal++;
+        }
         
         _logger.Information("{FormattedTimeString}", StopwatchHelper.GetStopwatchFinalTimes(ElapsedTotal));
         _logger.Information("Answer: {AnswerTotal}", answerTotal);
